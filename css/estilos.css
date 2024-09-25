@@ -1,0 +1,106 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Content */
+.container {
+    width: 80%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Form */
+form {
+    text-align: center;
+    margin: 20px 0;
+}
+
+label {
+    font-weight: bold;
+}
+
+select, button {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Button */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+ul, ol {
+    list-style-type: none; /* Elimina los bullets  */
+    padding: 0;
+}
+
+li {
+    text-align: center; 
+    padding: 10px; 
+    background-color: #f8f9fa; 
+    margin: 5px 0; /* Espaciado entre los elementos de la lista */
+    border-radius: 5px; 
+    display: block; /* los elementos de la lista se comporten como bloques */
+}
+
+li:hover {
+    background-color: #e2e6ea; /* Cambia el fondo al pasar el ratón*/
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+    }
+
+    button, select {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
